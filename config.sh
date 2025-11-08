@@ -13,7 +13,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 #Mover el fastapi service a la carpeta del daemon e iniciar el servicio
-mv fastapi.service /etc/systemd/system/
+sudo mv fastapi.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start fastapi
 sudo systemctl enable fastapi
