@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Clonar repo de GitHub
-git clone 
+git clone https://github.com/Thero16/fastapi_ec2.git
 
-cd 
+cd fastapi_ec2
 
 #Creacion entorno virtual de python
 python3 -m venv .venv
